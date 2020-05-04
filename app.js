@@ -31,6 +31,7 @@ app.get('/', function (req, res, next) {
 });
 
 app.get('/users', function (req, res, next) {
+    console.info(pool)
     res.send('respond with a resource 2');
 });
 
